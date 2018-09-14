@@ -1,0 +1,112 @@
+/* Set up */
+
+html {
+  font-size: 20px;
+}
+
+main {
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 600px;
+}
+
+/* Header */
+
+header {
+  background-color: white;
+  width: 100%;
+}
+
+h1 {
+
+}
+
+header p {
+  text-align: right;
+  margin: 0;
+  padding-bottom: 1em;
+  font-size: 0.8em;
+}
+
+/* Input */
+
+.done {
+  text-decoration: line-through;
+}
+
+.input-section {
+  display: block;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.input-section input {
+  font-size: 1em;
+  background-color: #eee;
+  width: 60%;
+  border: 1px solid #666;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  height: 1.8em;
+  padding-left: 0.5em;
+
+}
+
+.input-section button {
+  font-size: 1em;
+  height: 2em;
+  width: 2em;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #666;
+  border-left: none;
+  background-color: rgb(82, 219, 82);
+}
+
+/* List */
+
+.list-section {
+  background-color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 1em; 
+  
+}
+
+li {
+  display: block;
+  list-style: none;
+  height: 2em;
+  text-align: center;
+  margin: 0.1em 0;
+}
+
+li p {
+  display: inline-block;
+  margin: 0;
+  line-height: 2em;
+  text-align: left;
+  padding-left: 0.5em;
+  background-color: #eee;
+  width: 60%;
+  height: 1.9em;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #666;
+  border-right: none;
+}
+
+
+li button {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 2rem;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #666;
+  border-left: none;
+  background-color: rgb(243, 103, 103);
+}
